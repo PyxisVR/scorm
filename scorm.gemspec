@@ -15,4 +15,5 @@ Gem::Specification.new do |s|
   s.executables        = ['scorm']
 
   s.add_dependency('rubyzip',  '~> 2.3.0')
+  s.add_dependency('rexml',  '~> 3.2')
 end
